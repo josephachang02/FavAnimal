@@ -24,10 +24,25 @@ img{
 
 }
 
-nav>div {background-color:greenyellow;
+nav>div {
+    align-items: center;
+    justify-content: space-between;
+    background-color:greenyellow;
     color: white;
     size: 30px;
     font-size: 30px;
+
+.navClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    list-style: none;
+    background-color:greenyellow;
+    color: white;
+    size: 30px;
+    font-size: 30px;
+
+}
 
 }
 h2 {font-weight: 100;
