@@ -20,49 +20,56 @@ img{
 
 .text {
     font-size: 30px;
+    white-space: normal;
+    justify-content: flex-start;
+    text-align: left;
 
 
 }
 
-nav>div {
-    align-items: center;
-    justify-content: space-between;
-    background-color:greenyellow;
-    color: white;
-    size: 30px;
-    font-size: 30px;
-
-.navClass {
+.navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    list-style: none;
-    background-color:greenyellow;
+    justify-content: space-around;
+    background-color: #66a263;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10%;
+    width: auto;
+    margin: 1;
+    padding: 1;
+    justify-content: space-around;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 10px;
     color: white;
-    size: 30px;
-    font-size: 30px;
-
+    justify-content: space-around;
+    display: flex;
 }
 
-}
-h2 {font-weight: 100;
+
+h2 {font-weight: bolder;
     font-size: 50px; 
-
 }
+
 .list1 {
-    font-size: 20px;
-    size: 20px;
+    font-size: 30px;
+    size: 40px;
 }
 
 .list2 {
-    font-size: 20px;
-    size: 20px;
+    font-size: 30px;
+    size: 40px;
 }
 
-ol>li{
-    text-size: 30px;
+ol li{
+    font-size: 30px;
 }
 
-ul>li{
-    text-size: 30px;
+ul li{
+    font-size: 30px;
 }
