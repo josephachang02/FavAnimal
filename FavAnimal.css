@@ -7,6 +7,8 @@ body {background-color:lightblue;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
+    margin: 20px;
+
 }
 
 h1 {
@@ -29,24 +31,25 @@ img{
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #66a263;
 }
 
-.nav-list {
+.navbar > .nav-list {
     list-style-type: none;
-    display: inline-block;
+    display:inline-flex;
     padding-right: 10%;
-    width: auto;
-    margin: 1;
-    padding: 1;
+    width: 1000px;
+    margin-inline: 5;
+    padding: 2;
     justify-content: space-around;
-    display: flex;
+    text-align: center;
 }
 
 .nav-list li {
     margin: 0 10px;
     color: white;
+    font-size: 50px;
     justify-content: space-around;
     display: flex;
 }
